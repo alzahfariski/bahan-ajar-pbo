@@ -1,13 +1,14 @@
 <?php
 
 // import data/person.php
-require_once "data/manager.php";
+require_once "data/Manager.php";
+
 // buat object new manager dan tambahakan value nama kemudian panggil function
-$manager1 = new manager();
-$manager1->nama = "alzah";
-$manager1->sayHello("kic");
+$manager = new Manager();
+$manager->nama = "alzah";
+$manager->sayHello("kic");
+
 // buat object new vicepresident dan tambahakan value nama kemudian panggil function
-$ceo1 = new ceo();
-$ceo1->nama = "fariski";
-$ceo1->alamat = "bengkulu";
-$ceo1->sayHello("far");
+$vp = new VicePresident();
+$vp->nama = "fariski";
+$vp->sayHello("kic");

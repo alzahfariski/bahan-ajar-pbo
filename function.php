@@ -2,7 +2,9 @@
 
 // import data/person.php
 require_once "data/person.php";
+
 // buat object baru dari kelas person
-$person1 = new person();
+$person1 = new Person("alzah","bengkulu");
+
 // panggil function
-$person1->sayHello("Alzah");
+$person1->sayHello("alzah");
